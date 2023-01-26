@@ -1,14 +1,14 @@
-import {AppContext} from './core/AppContext'
-import './styles/global.css'
+import { ToDoDisplay } from "./components";
+import { AppContext } from "./core/AppContext";
+import "./styles/global.css";
 
-function App() {
+export default function App() {
   return (
-    <AppContext.Provider value='to-do-list' >
-     <main>
-      hello
-     </main>
+    <AppContext.Provider value={{}}>
+      <main>
+        <h2>TO DO LIST</h2>
+        <ToDoDisplay />
+      </main>
     </AppContext.Provider>
   );
 }
-
-export default App;

@@ -1,0 +1,12 @@
+.display {
+  background-color: #222222;
+  padding: 15px 40px;
+  border-radius: 30px;
+}
+.header {
+  min-width: 320px;
+  max-width: 390px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}

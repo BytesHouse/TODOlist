@@ -1,24 +1,45 @@
-@import url('https://fonts.googleapis.com/css2?family=Abhaya+Libre:wght@600&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Actor&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Abhaya+Libre:wght@600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Actor&display=swap");
 
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 body {
-    background-color: #121212;
+  background-color: #121212;
 }
 
-h1,h2 {
-    color: rgb(255,255,255);
+h1,
+h2 {
+  color: rgb(255, 255, 255);
 }
-h1, main h2 {
-    font-family: 'Actor', sans-serif;
+h1,
+main h2 {
+  font-family: "Actor", sans-serif;
 }
 h2 {
-    font-family: 'Abhaya Libre', serif;
+  font-family: "Abhaya Libre", serif;
 }
 p {
-    color: rgba(255, 255, 255, 0.8);
+  color: rgba(255, 255, 255, 0.8);
+}
+
+main {
+  max-width: 1180px;
+  margin: auto;
+  padding: 0 20px;
+  display: flex;
+  height: 80vh;
+  justify-content: space-between;
+  align-items: center;
+}
+@media (max-width: 768px) {
+  main {
+    flex-direction: column;
+    justify-content: center;
+  }
+  main h2 {
+    margin-bottom: 20px;
+  }
 }
