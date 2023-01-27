@@ -2,6 +2,8 @@
   background-color: #222222;
   padding: 15px 40px;
   border-radius: 30px;
+  color: white;
+  height: 650px;
 }
 .header {
   min-width: 320px;
@@ -10,4 +12,7 @@
   justify-content: space-between;
   align-items: center;
   color: white;
+  font-size: 36px;
+  font-weight: 400;
+  margin-bottom: 10px;
 }
